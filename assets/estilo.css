@@ -18,6 +18,8 @@
 }
 .nav {
     display: flex;
+    width: 100%;
+
 }
 
 .lis1 li {
@@ -25,19 +27,21 @@
     margin-right: 20%;
     font-size: 25px;
     list-style: none;
+    padding: 2%;
+   
+    
+}
+
+.lis1 li a{
+ width:50px;
 }
 .nav ul{
     display: flex;
-    margin-top: 15%;
-    margin-left: 30%;
-}
-.lis2 li {
-    margin:2%;
-    list-style: none;
 
-    font-size: 25px;
-    list-style: none;
+    margin-left: 30%;
+    width: 100%;
 }
+
 
 .bod h1 {
    color: #625f5f;
@@ -45,48 +49,79 @@
    margin-bottom: 5%;
    font-size: 40px;
 }
-
-.comedores h2{
+ h2{
     color: #625f5f;
     font-size: 30px;
-    margin-top: 1%;
+    margin-top: 10%;
 }
 
 .comedores {
    display: flex;
-   margin-right: 15%;
+
 }
 
 .comedores details {
-    width: 30%;
-    margin-top: 5%;
+    width: 100%;
+    margin-top: 2%;
+    margin-right: 10%;
 }
 
 summary {
     list-style: none;
+    border: 1px solid black;
+    margin-right: 10%; 
+    width: 100%;
 }
 
 summary h4 {
     text-align: center;
+    font-size: 25px;
+    margin-top: 8% ;
 }
-.comedores img {
-    width: 70%;
-    margin-left: 15%;
-
-}
+    
 
 details p {
-    width: 70%;
+    width: 100%;
     text-align: justify;
-    margin-left: 15%;
+    font-size: 25px;
 }
 
-.comedores details {
-    border-color: black;
-}
 
-details h3 {
+ h3 {
     color: brown;
     margin-left: 15%;
     margin-top: 1%;
+    font-size: 25px;
 }
+
+.escritorios {
+    display:flex;
+    margin-top: 2%;
+}
+
+.escritorios details {
+   margin-right: 8%;
+   width: 100%;
+
+}
+
+.terraza {
+   display: flex;
+   margin-top: 2%;
+}
+ .terraza details {
+    margin-right: 9%;
+    width: 100%;
+ }
+
+ footer {
+    background-color: brown;
+    width:100% ;
+    height: 60%;
+ }
+ footer h3 {
+    font-size: 30px;
+    color: #1f1d1d;
+    text-align: center;
+    padding: 2%;
+ }
