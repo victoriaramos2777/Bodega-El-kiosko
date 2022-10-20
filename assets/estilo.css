@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+
+#cuerpo{
+ width:90%;
+ margin-left:8%;
+}
 .img1 img {
     width: 15%;
 
@@ -24,20 +29,18 @@
 
 .lis1 li {
     list-style: none;
-    margin-right: 20%;
     font-size: 25px;
-    list-style: none;
-    padding: 2%;
+    padding-left: 5%;
+    margin-top: 10%;
    
     
 }
 
-.lis1 li a{
- width:50px;
+    .lis1 li a{
+     width:50px;
 }
 .nav ul{
     display: flex;
-
     margin-left: 30%;
     width: 100%;
 }
@@ -63,8 +66,9 @@
 .comedores details {
     width: 100%;
     margin-top: 2%;
-    margin-right: 10%;
+    margin-right: 5%;
 }
+
 
 summary {
     list-style: none;
@@ -83,7 +87,7 @@ summary h4 {
 details p {
     width: 100%;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -100,9 +104,13 @@ details p {
 }
 
 .escritorios details {
-   margin-right: 8%;
+   margin-right: 5%;
    width: 100%;
 
+}
+
+summary img {
+    width: 80%;
 }
 
 .terraza {
@@ -110,7 +118,7 @@ details p {
    margin-top: 2%;
 }
  .terraza details {
-    margin-right: 9%;
+    margin-right: 6%;
     width: 100%;
  }
 
@@ -124,4 +132,201 @@ details p {
     color: #1f1d1d;
     text-align: center;
     padding: 2%;
+    margin-right: 20%;
  }
+
+ /*pantalla para movil*/
+ @media screen and (min-width:300px) and (max-width:700px) {
+
+    .img1 img {
+        width: 70%;
+      
+    }
+
+    #encabezado {
+        display: flex;
+        width:100% ;
+        height:50% ;
+        background-color:black;
+        margin-bottom: 10%;
+    }
+
+    
+.nav  ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 12%;
+    
+
+}
+
+.lis1 li a {
+    list-style: none;
+    font-size: 20px;
+    padding-left: 5%;
+    margin-top: 15%;
+}
+
+.comedores {
+    display: flex;
+    flex-direction: column;
+ 
+ }
+ 
+ .comedores details {
+     width: 100%;
+     margin-top: 3%;
+     margin-right: 5%;
+ }
+
+ .escritorios {
+    display:flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.escritorios details {
+   margin-right: 5%;
+   width: 100%;
+   margin-top: 3%;
+}
+
+summary img {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.terraza {
+   display: flex;
+   flex-direction: column;
+   margin-top: 2%;
+}
+ .terraza details {
+    margin-right: 6%;
+    width: 100%;
+    margin-top: 3%;
+ }
+
+
+ footer {
+    background-color:black;
+    width:100% ;
+    height: 60%;
+ }
+ footer h3 {
+    font-size: 25px;
+    color:#551a8b;
+    text-align: center;
+    padding: 2%;
+    margin-right: 20%;
+ }
+
+ #cuerpo{
+    width:90%;
+    margin-left:5%;
+   }
+
+   h2{
+    color: #625f5f;
+    font-size: 30px;
+    margin-top: 10%;
+    text-align: center;
+}
+ }
+
+/*pantalla para tablet*/
+@media screen and (min-width:700px) and (max-width:1200px) {
+ 
+    .img1 img {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    #encabezado {
+        display: flex;
+        width:100% ;
+        height:50% ;
+        background-color:rgb(12, 136, 158);
+        opacity: 90%;
+        margin-bottom: 10%;
+    }
+
+    
+.nav  ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.lis1 li a {
+    list-style: none;
+    font-size: 40px;
+    padding-left: 5%;
+    margin-top: 20%;
+    color:black;
+}
+
+.comedores {
+    display: flex;
+ 
+ }
+ 
+ .comedores details {
+     width: 100%;
+     margin-top: 3%;
+     margin-right: 5%;
+ }
+
+ .escritorios {
+    display:flex;
+
+    margin-top: 2%;
+}
+
+.escritorios details {
+   margin-right: 5%;
+   width: 100%;
+   margin-top: 3%;
+}
+
+summary img {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.terraza {
+   display: flex;
+   margin-top: 2%;
+}
+ .terraza details {
+    margin-right: 6%;
+    width: 100%;
+    margin-top: 3%;
+ }
+ summary h4 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 8% ;
+    color: rgb(3, 33, 23);
+}
+
+h2 {
+    font-size:40px;
+    color: cadetblue;
+}
+
+ footer {
+    background-color:rgb(12, 136, 158);
+    width:100% ;
+    height: 60%;
+ }
+ footer h3 {
+    font-size: 25px;
+    color: #1f1d1d;
+    text-align: center;
+    padding: 2%;
+    margin-right: 20%;
+ }
+}
