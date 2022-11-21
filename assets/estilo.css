@@ -29,6 +29,7 @@
 
 .lis1 li {
     list-style: none;
+    text-decoration: none;
     font-size: 25px;
     padding-left: 5%;
     margin-top: 10%;
@@ -38,6 +39,7 @@
 
     .lis1 li a{
      width:50px;
+     text-decoration: none;
 }
 .nav ul{
     display: flex;
